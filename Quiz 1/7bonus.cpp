@@ -53,8 +53,15 @@ int main() {
     return 0;
 }
 
+
 double computeFormula1(double A, double B, double C) {
     return (A + B) * C;
 }
 
-double computeForm
+double computeFormula2(double X, double Y, double Z) {
+return (X * X) + (2 * X * Y) + (Y * Y) - (3 * Z);
+}
+
+double computeFormula3(double P, double Q, double R) {
+return (P * P) - (2 * P * Q) + (Q * Q) + (3 * R);
+}
